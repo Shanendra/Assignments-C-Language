@@ -85,7 +85,7 @@ void Odd_Natural_Numbers()
 {
     printf("\nEnter A Number := ");
     scanf("%d",&b);
-    a=1;
+    a=1; b=b*2;
     while(a<=b)
     {
         if (a%2)
@@ -107,6 +107,7 @@ void Odd_Natural_NumbersRev()
 {
     printf("\nEnter A Number := ");
     scanf("%d",&a);
+    a=a*2;
     
     while(a>=1)
     {
@@ -134,7 +135,7 @@ void Even_Natural_Numbers()
 {
     printf("\nEnter A Number := ");
     scanf("%d",&b);
-    a=1;
+    a=1; b=b*2;
     while(a<=b)
     {
 
@@ -156,6 +157,7 @@ void Even_Natural_NumbersRev()
 {
     printf("\nEnter A Number := ");
     scanf("%d",&a);
+    a=a*2;
     while(a>=1)
     {
         if(a%2==0)
@@ -181,6 +183,7 @@ void SquarNatural_Numbers()
 {
     printf("\nEnter A Number := ");
     scanf("%d",&b);
+    
     a=1;
     printf("\nNatural Numbers :=");
     while (a<=b)
